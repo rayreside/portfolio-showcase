@@ -1,0 +1,63 @@
+body {
+    margin: auto 0;
+}
+
+.main-nav{
+    display: flex;
+    background-color: #212121;
+    color: ivory;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.buffer {
+    display: inline-flex;
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+.navlist {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: 33%;
+    justify-content: center;
+}
+
+li {
+    margin: 0;
+    padding: 1em;
+    
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.cover {
+    display: flex;
+    background-color: #212121;
+    color: ivory;
+}
+
+.portfolio {
+    width: 100%;
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-auto-flow: dense;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.pic > img {
+    width: 100%;
+    margin: 0rem;
+}
